@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		474124D62D669BA300CA2777 /* Kolukuluri_Calculator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kolukuluri_Calculator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		477596802D6E2F9800C2B6B0 /* Kolukuluri_Exam01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kolukuluri_Exam01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		474124E82D669BA400CA2777 /* Exceptions for "Kolukuluri_Calculator App" folder in "Kolukuluri_Calculator App" target */ = {
+		477596922D6E2F9800C2B6B0 /* Exceptions for "Kolukuluri_Exam01" folder in "Kolukuluri_Exam01" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 474124D52D669BA300CA2777 /* Kolukuluri_Calculator App */;
+			target = 4775967F2D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		474124D82D669BA300CA2777 /* Kolukuluri_Calculator App */ = {
+		477596822D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				474124E82D669BA400CA2777 /* Exceptions for "Kolukuluri_Calculator App" folder in "Kolukuluri_Calculator App" target */,
+				477596922D6E2F9800C2B6B0 /* Exceptions for "Kolukuluri_Exam01" folder in "Kolukuluri_Exam01" target */,
 			);
-			path = "Kolukuluri_Calculator App";
+			path = Kolukuluri_Exam01;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		474124D32D669BA300CA2777 /* Frameworks */ = {
+		4775967D2D6E2F9800C2B6B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		474124CD2D669BA300CA2777 = {
+		477596772D6E2F9800C2B6B0 = {
 			isa = PBXGroup;
 			children = (
-				474124D82D669BA300CA2777 /* Kolukuluri_Calculator App */,
-				474124D72D669BA300CA2777 /* Products */,
+				477596822D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */,
+				477596812D6E2F9800C2B6B0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		474124D72D669BA300CA2777 /* Products */ = {
+		477596812D6E2F9800C2B6B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				474124D62D669BA300CA2777 /* Kolukuluri_Calculator App.app */,
+				477596802D6E2F9800C2B6B0 /* Kolukuluri_Exam01.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		474124D52D669BA300CA2777 /* Kolukuluri_Calculator App */ = {
+		4775967F2D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 474124E92D669BA400CA2777 /* Build configuration list for PBXNativeTarget "Kolukuluri_Calculator App" */;
+			buildConfigurationList = 477596932D6E2F9800C2B6B0 /* Build configuration list for PBXNativeTarget "Kolukuluri_Exam01" */;
 			buildPhases = (
-				474124D22D669BA300CA2777 /* Sources */,
-				474124D32D669BA300CA2777 /* Frameworks */,
-				474124D42D669BA300CA2777 /* Resources */,
+				4775967C2D6E2F9800C2B6B0 /* Sources */,
+				4775967D2D6E2F9800C2B6B0 /* Frameworks */,
+				4775967E2D6E2F9800C2B6B0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				474124D82D669BA300CA2777 /* Kolukuluri_Calculator App */,
+				477596822D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */,
 			);
-			name = "Kolukuluri_Calculator App";
+			name = Kolukuluri_Exam01;
 			packageProductDependencies = (
 			);
-			productName = "Kolukuluri_Calculator App";
-			productReference = 474124D62D669BA300CA2777 /* Kolukuluri_Calculator App.app */;
+			productName = Kolukuluri_Exam01;
+			productReference = 477596802D6E2F9800C2B6B0 /* Kolukuluri_Exam01.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		474124CE2D669BA300CA2777 /* Project object */ = {
+		477596782D6E2F9800C2B6B0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					474124D52D669BA300CA2777 = {
+					4775967F2D6E2F9800C2B6B0 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 474124D12D669BA300CA2777 /* Build configuration list for PBXProject "Kolukuluri_Calculator App" */;
+			buildConfigurationList = 4775967B2D6E2F9800C2B6B0 /* Build configuration list for PBXProject "Kolukuluri_Exam01" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 474124CD2D669BA300CA2777;
+			mainGroup = 477596772D6E2F9800C2B6B0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 474124D72D669BA300CA2777 /* Products */;
+			productRefGroup = 477596812D6E2F9800C2B6B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				474124D52D669BA300CA2777 /* Kolukuluri_Calculator App */,
+				4775967F2D6E2F9800C2B6B0 /* Kolukuluri_Exam01 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		474124D42D669BA300CA2777 /* Resources */ = {
+		4775967E2D6E2F9800C2B6B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		474124D22D669BA300CA2777 /* Sources */ = {
+		4775967C2D6E2F9800C2B6B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +138,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		474124EA2D669BA400CA2777 /* Debug */ = {
+		477596942D6E2F9800C2B6B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -146,7 +146,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Kolukuluri_Calculator App/Info.plist";
+				INFOPLIST_FILE = Kolukuluri_Exam01/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -158,7 +158,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kolukuluri-Calculator-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kolukuluri-Exam01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -166,7 +166,7 @@
 			};
 			name = Debug;
 		};
-		474124EB2D669BA400CA2777 /* Release */ = {
+		477596952D6E2F9800C2B6B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -174,7 +174,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Kolukuluri_Calculator App/Info.plist";
+				INFOPLIST_FILE = Kolukuluri_Exam01/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -186,7 +186,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kolukuluri-Calculator-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Kolukuluri-Exam01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -194,7 +194,7 @@
 			};
 			name = Release;
 		};
-		474124EC2D669BA400CA2777 /* Debug */ = {
+		477596962D6E2F9800C2B6B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +257,7 @@
 			};
 			name = Debug;
 		};
-		474124ED2D669BA400CA2777 /* Release */ = {
+		477596972D6E2F9800C2B6B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		474124D12D669BA300CA2777 /* Build configuration list for PBXProject "Kolukuluri_Calculator App" */ = {
+		4775967B2D6E2F9800C2B6B0 /* Build configuration list for PBXProject "Kolukuluri_Exam01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				474124EC2D669BA400CA2777 /* Debug */,
-				474124ED2D669BA400CA2777 /* Release */,
+				477596962D6E2F9800C2B6B0 /* Debug */,
+				477596972D6E2F9800C2B6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		474124E92D669BA400CA2777 /* Build configuration list for PBXNativeTarget "Kolukuluri_Calculator App" */ = {
+		477596932D6E2F9800C2B6B0 /* Build configuration list for PBXNativeTarget "Kolukuluri_Exam01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				474124EA2D669BA400CA2777 /* Debug */,
-				474124EB2D669BA400CA2777 /* Release */,
+				477596942D6E2F9800C2B6B0 /* Debug */,
+				477596952D6E2F9800C2B6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 474124CE2D669BA300CA2777 /* Project object */;
+	rootObject = 477596782D6E2F9800C2B6B0 /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Kolukuluri_Calculator App
+//  Kolukuluri_PracticeExam01
 //
-//  Created by Geethika Kolukuluri on 2/19/25.
+//  Created by Geethika Kolukuluri on 2/20/25.
 //
 
 import UIKit
