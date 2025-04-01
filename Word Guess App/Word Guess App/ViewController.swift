@@ -104,8 +104,7 @@ class ViewController: UIViewController {
         }
     }
 
-        
-
+    
     @IBAction func letterEntered(_ sender: UITextField) {
         var textEntered = inputOL.text ?? ""
                
