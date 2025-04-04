@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipOL: UITextField!
     
     @IBOutlet weak var personsOL: UITextField!
-    
+
     
     //Declare global variables to access in resultViewController
     var billAmount = 0.0
@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     var tipAmount = 0.0
     var amountPerPerson = 0.0
     var image = ""
+    var totAmount = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,26 +32,37 @@ class ViewController: UIViewController {
 
     @IBAction func calculateBtnClicked(_ sender: UIButton) {
         
-        //assign the text field values to the variables.
-        billAmount = Double(amountOL.text!)!
-        tipPercentage = Int(tipOL.text!)!
-        personNumber = Int(personsOL.text!)!
-        
-        //calculate the tip amount
-        tipAmount = billAmount * (Double(tipPercentage)/100)
-        
-        //calculate the amount each person should pay.
-        amountPerPerson = (billAmount+tipAmount) / Double(personNumber)
-        
-        //assign image according to tipAmount
-        if tipAmount > 20.0 {
-            image = "best"
-        } else if tipAmount > 10.0 {
-            image = "better"
-        } else if tipAmount > 5.0 {
-            image = "good"
-        } else {
-            image = "thankYou"
+        if Int(amountOL.text!)! <= 0 || Int(tipOL.text!)! < 0 || Int(personsOL.text!)! <= 0 {
+            tipAmount = 0
+            amountPerPerson = 0
+            totAmount = 0
+            image = "invalid"
+            tipPercentage = 0
+            billAmount = 0
+            personNumber = 0
+        }else{
+            
+            //assign the text field values to the variables.
+            billAmount = Double(amountOL.text!)!
+            tipPercentage = Int(tipOL.text!)!
+            personNumber = Int(personsOL.text!)!
+            
+            //calculate the tip amount
+            tipAmount = billAmount * (Double(tipPercentage)/100)
+            totAmount = billAmount + tipAmount
+            //calculate the amount each person should pay.
+            amountPerPerson = (billAmount+tipAmount) / Double(personNumber)
+            
+            //assign image according to tipAmount
+            if tipAmount > 20.0 {
+                image = "best"
+            } else if tipAmount > 10.0 {
+                image = "better"
+            } else if tipAmount > 5.0 {
+                image = "good"
+            } else {
+                image = "thankYou"
+            }
         }
 
     }
@@ -74,6 +86,7 @@ class ViewController: UIViewController {
             destination.enteredPersons = String(personNumber)
             destination.calculatedTipAmount = String(format:"%.2f",tipAmount)
             destination.calculatedAmountPerPerson = String(format:"%.2f",amountPerPerson)
+            destination.totalAmount = String(format:"%.2f",totAmount)
             destination.imageVal = image
         }
     }

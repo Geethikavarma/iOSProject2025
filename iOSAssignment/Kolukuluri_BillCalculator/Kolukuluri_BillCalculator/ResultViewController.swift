@@ -21,6 +21,10 @@ class ResultViewController: UIViewController {
     
     @IBOutlet weak var imageOL: UIImageView!
     
+    @IBOutlet weak var totalAmountOL: UILabel!
+    
+    
+    
     //Declare global Variables
     var enteredAmount = ""
     var enteredTip = ""
@@ -28,6 +32,7 @@ class ResultViewController: UIViewController {
     var enteredPersons = ""
     var calculatedAmountPerPerson = ""
     var imageVal = ""
+    var totalAmount = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +40,7 @@ class ResultViewController: UIViewController {
         enteredTipOL.text! += "\(enteredTip)%"
         tipAmountOL.text! += "\(calculatedTipAmount) Rs."
         enteredPersonsOL.text! += "\(enteredPersons) members"
+        totalAmountOL.text! += "\(totalAmount) Rs."
         amountPerPersonOL.text! += "\(calculatedAmountPerPerson) Rs."
         imageOL.image = UIImage(named: imageVal)
         

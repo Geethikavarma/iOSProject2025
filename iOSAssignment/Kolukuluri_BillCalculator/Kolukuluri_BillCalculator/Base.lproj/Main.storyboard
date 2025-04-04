@@ -71,7 +71,7 @@
                                     <color key="baseBackgroundColor" red="0.5012056435992901" green="0.56462481562166689" blue="0.83251914597049204" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="calculateBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gwp-Xq-2yI"/>
+                                    <action selector="calculateBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9r-3H-5SI"/>
                                     <segue destination="iFN-sq-uWB" kind="show" identifier="ResultSegue" id="5uq-g4-Fh1"/>
                                 </connections>
                             </button>
@@ -111,39 +111,46 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Bill Amount: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHQ-dD-ezZ">
-                                <rect key="frame" x="16" y="162" width="361" height="67"/>
+                                <rect key="frame" x="7" y="155" width="361" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Percentage(%):  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPn-b1-q6Y">
-                                <rect key="frame" x="16" y="237" width="361" height="67"/>
+                                <rect key="frame" x="7" y="230" width="361" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No.of Persons Paying: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xe1-1h-jDq">
-                                <rect key="frame" x="16" y="387" width="361" height="67"/>
+                                <rect key="frame" x="7" y="380" width="361" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Amount: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xE3-28-Wsj">
-                                <rect key="frame" x="16" y="312" width="361" height="67"/>
+                                <rect key="frame" x="7" y="305" width="361" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20I-sB-e9A">
-                                <rect key="frame" x="52" y="561" width="299" height="223"/>
+                                <rect key="frame" x="48" y="611" width="303" height="173"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Amount to be Paid: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXn-yA-afd">
+                                <rect key="frame" x="7" y="455" width="361" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Share Per Person: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gog-dM-3aI">
-                                <rect key="frame" x="16" y="462" width="361" height="67"/>
+                                <rect key="frame" x="7" y="529" width="361" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="20"/>
                                 <nil key="textColor"/>
@@ -161,6 +168,7 @@
                         <outlet property="enteredTipOL" destination="cPn-b1-q6Y" id="ghS-SS-ZXf"/>
                         <outlet property="imageOL" destination="20I-sB-e9A" id="ZhD-Ea-Lcy"/>
                         <outlet property="tipAmountOL" destination="xE3-28-Wsj" id="KHq-go-ASr"/>
+                        <outlet property="totalAmountOL" destination="cXn-yA-afd" id="XKp-sq-ZHa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ve-ZX-dd8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
